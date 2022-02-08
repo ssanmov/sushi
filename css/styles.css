@@ -1,0 +1,403 @@
+@font-face{
+  font-family: DIN Pro;
+  src: url(../fonts/din_pro.ttf);
+}
+body{
+  font-family: DIN Pro;
+  margin: 0%;
+  background-color: #F2F2F2;
+}
+
+.middle,
+.right {
+  min-height: 100px;
+  display: inline-block;
+}
+
+.middle {
+  width: 75%;
+  
+}
+.right {
+  width: 24%;
+  background-color:white;
+  position: relative;
+  
+}
+#nazadtext{
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+.nazad{
+  position: absolute;
+  left: 100px;
+  top: 45px;
+}
+#nashtel{
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 500;
+ 
+}
+#nomera{
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #FF9846;
+  text-align: center;
+}
+#rabotaem{
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #A4ACAD;
+  text-align: center;
+}
+.vremyaraboti{
+ 
+  margin: 0px;
+}
+.kontakti{
+  width: 185px;
+  height: 76px;
+  position: absolute;
+  left: 625px;
+  text-align: center;
+}
+#razdelitel{
+  width: 1100px;
+  height: 0px;
+ position: absolute;
+ top: 83px;
+ display: inline-block;
+}
+.zakaz{
+  width: 760px;
+  height: 568px;
+  
+  position: relative;
+  top: 130px;
+  left: 338px;
+}
+#head{
+  font-size: 24px;
+  font-weight: 500;
+  display: block;
+}
+.btel{
+  margin-top: 30px;
+  margin-right: 20px;
+  width: 170px;
+  height: 40px;
+  background-color: white;
+ border-radius: 5px;
+ display: inline-block;
+}
+#bteltxt{
+position: relative;
+top: 10px;
+left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #A4ACAD;
+}
+
+.bimya{
+  margin-top: 30px;
+  margin-right: 40px;
+  width: 170px;
+  height: 40px;
+  background-color: white;
+ border-radius: 5px;
+ display: inline-block;
+}
+#bimyatxt{
+position: relative;
+top: 10px;
+left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #A4ACAD;
+}
+
+.bviborleft{
+  margin-top: 30px;
+  margin-right: 0px;
+  width: 170px;
+  height: 40px;
+  background-color: #FF9846;
+ border-radius: 5px 0px 0px 5px;
+ display: inline-block;
+}
+#bviborlefttxt{
+position: relative;
+top: 10px;
+left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  display: inline;
+}
+.bviborright{
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-left: -5px;
+  
+  width: 170px;
+  height: 40px;
+  background-color: white;
+ border-radius: 0px 5px 5px 0px;
+ display: inline-block;
+}
+#bviborrighttxt{
+position: relative;
+top: 10px;
+left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+
+.bviborright1{
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-left: -5px;
+  margin-right: 40px;
+  width: 183px;
+  height: 40px;
+  background-color: white;
+ border-radius: 0px 5px 5px 0px;
+ text-align: center;
+ display: inline-block;
+}
+.bviborleft1{
+  margin-top: 30px;
+  margin-right: 0px;
+  width: 183px;
+  height: 40px;
+  background-color: #FF9846;
+ border-radius: 5px 0px 0px 5px;
+ text-align: center;
+ display: inline-block;
+}
+.bul{
+  margin-top: 30px;
+  margin-right: 0px;
+  width: 250px;
+  height: 40px;
+  background-color: white;
+ border-radius: 5px;
+ display: inline-block;
+}
+#bultxt{
+position: relative;
+top: 10px;
+left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #A4ACAD;
+}
+.bdom{
+  margin-top: 30px;
+  margin-right: 0px;
+  width: 80px;
+  height: 40px;
+  background-color: white;
+ border-radius: 5px;
+ display: inline-block;
+}
+.sdachi{
+  margin-top: 29px;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+  display: inline-block;
+}
+#sdachitxt{
+  width: 166px;
+  height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.bsumma{
+  margin-top: 25px;
+  margin-right: 40px;
+  width: 162px;
+  height: 40px;
+  background-color: white;
+ border-radius: 5px;
+ display: inline-block;
+}
+#bsummatxt{
+position: relative;
+top: 10px;
+left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #A4ACAD;
+}
+.podgotov{
+  margin-top: 19px;
+  display: inline-block;
+}
+#podgotovtxt{
+  font-size: 18px;
+  font-weight: 500;
+}
+.bkom{
+  margin-top: 30px;
+  margin-right: 40px;
+  width: 363px;
+  height: 40px;
+  background-color: white;
+ border-radius: 5px;
+ display: inline-block;
+}
+#bultxt{
+position: relative;
+top: 10px;
+left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #A4ACAD;
+}
+.bdobotm{
+  display: inline-block;
+  margin-left: 70px;
+}
+#minus{
+  position: relative;
+  bottom: 5px;
+}
+#plus{
+  position: relative;
+  top: 3px;
+}
+
+#kartaimg{
+  position: relative;
+  top: 8px;
+}
+#bviborlefttxtnal{
+  position: relative;
+top: 5px;
+left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  display: inline;
+}
+#bviborrighttxtkar{
+  position: relative;
+top: 5px;
+left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  display: inline;
+}
+.bemail{
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 340px;
+  height: 40px;
+  background-color: white;
+ border-radius: 5px;
+ display: inline-block;
+}
+.podgotov1{
+  margin-top: 0px;
+  display: inline-block;
+}
+.bdobotm1{
+  display: inline-block;
+  margin-left: 70px;
+}
+.boform{
+  margin-top: 30px;
+  margin-right: 40px;
+  width: 760px;
+  height: 40px;
+  background-color: #F46D40;
+ border-radius: 5px;
+ display: inline-block;
+}
+#sogl{
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+.bkorzina{
+  width: 290px;
+  height: 50px;
+  background-color: #F2F2F2;
+  position: relative;
+  top: 59px;
+  left: 66px;
+  border-radius: 5px;
+}
+#bkorzinatxt{
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  top: 10px;
+  left: 98px;
+}
+.vibrannoe{
+  background-color: aqua;
+  width: 290px;
+  height: 50px;
+  position: relative;
+  top: 60px;
+  left: 66px;
+}
+#vibrannoetxt{
+  position: relative;
+  bottom: 30px;
+}
+#sushi{
+  position: relative;
+  top: 60px;
+  left: 66px;
+}
+.sushitxt{
+  width: 220px;
+  height: 50px;
+  margin: 0px;
+  position: relative;
+  left: 150px;
+  top: 8px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+}
+.rightniz{
+  width: 369px;
+  height: 155px;
+  background-color: white;
+  margin-top: 304px;
+  position: relative;
+  top: 100px;
+}
+.text1{
+  margin-left: 66px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.text2{
+  margin-left: 80px;
+  font-size: 18px;
+  font-weight: 500;
+}
+#razdelitel1{
+  width: 300px;
+  height: 0px;
+position: relative;
+right: 26px;
+}
+.text2bespl{
+  margin-left: 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
